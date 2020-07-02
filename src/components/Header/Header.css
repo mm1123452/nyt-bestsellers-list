@@ -1,0 +1,24 @@
+.navigation {
+ max-width: 80%;
+ margin: 0 auto;
+}
+
+.navigation__list {
+  list-style-type:none;
+  padding: 0;
+  margin: 15% 0 0;
+  display:flex;
+  justify-content: flex-end;
+}  
+
+.navigation__list-item {
+   padding-right: 8%;
+}
+
+.navigation__list-item:last-of-type {
+  padding-right: 0;
+}
+
+.navigation__link {
+  text-decoration:none;
+}

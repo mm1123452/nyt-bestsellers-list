@@ -1,9 +1,12 @@
 import React from 'react';
+import Header from './Header/Header'
+import Landing from './Landing/Landing'
 
 function App() {
   return (
     <div className="App">
-      <h1>Hello</h1>
+      <Header/>
+      <Landing/>
     </div>
   );
 }
