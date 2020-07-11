@@ -12,7 +12,6 @@ function Landing() {
         <h1 className="landing__header">The New York Times Best Sellers</h1>
         <p className="landing__subHeader">Discover your next favorite book!</p>
       </div>
-      
     </section>   
   );
 }
