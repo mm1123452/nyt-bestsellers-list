@@ -1,12 +1,19 @@
 .navigation {
- max-width: 80%;
- margin: 0 auto;
+ max-width: 1200px;
+ width: 80%;
+ margin: 10% auto 0;
+}
+
+@media only screen and (max-width: 425px) {
+  .navigation {
+    margin: 15% auto 0;
+   }
 }
 
 .navigation__list {
   list-style-type:none;
   padding: 0;
-  margin: 15% 0 0;
+  margin: 0;
   display:flex;
   justify-content: flex-end;
 }  
