@@ -16,21 +16,22 @@ function Book({ data }) {
   };
 
   return (
-    <div className="book">
-      <div className="book__image" style={styles}>
-        <div className="book__num-container">
-          <span className="book__num-weeks">{weeks_on_list}</span>
-        </div>
-      </div>
-      <div className="book__text-container">
-        <p className="book__rank">
-          <span className="book__rank-text">Rank: </span>
-          {rank}
-        </p>
-        <h4 className="book__title">{title}</h4>
-        <p className="book__author">{author}</p>
+    <li className="book">
+    <div className="book__image" style={styles}>
+      <div className="book__num-container">
+        <span className="book__num-weeks">{weeks_on_list}</span>
       </div>
     </div>
+    <div className="book__text-container">
+      <p className="book__rank">
+        <span className="book__rank-text">Rank: </span>
+        {rank}
+      </p>
+      <h4 className="book__title">{title}</h4>
+      <p className="book__author">{author}</p>
+    </div>
+  </li>
+    
   );
 }
 
