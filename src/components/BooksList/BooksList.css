@@ -1,7 +1,8 @@
 .bookslist {
   margin: 0;
   background-color: #e9f9ff;
-  padding-top: 100px;
+
+  padding: 100px 0 200px 0;
 }
 
 .bookslist__title {
@@ -21,6 +22,11 @@
     flex-wrap: wrap;
     max-width: 1000px;
     margin: 0 auto;
+  }
+
+  .bookslist__title {
+    font-size: 24px;
+   line-height: 28px;
   }
 }
 

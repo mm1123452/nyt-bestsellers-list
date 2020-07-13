@@ -4,7 +4,7 @@ import {Link} from 'react-router-dom'
 
 function Header() {
   return (
-    <header>
+    <header className="header">
       <nav className="navigation">
         <ul className="navigation__list">
           <li className="navigation__list-item">
